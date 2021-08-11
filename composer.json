@@ -20,16 +20,15 @@
         "laminas/laminas-mail": "^2.14.1"
     },
     "require-dev": {
-        "mikey179/vfsStream": "^1.6",
-        "phpunit/phpunit": "^4.8.35",
-        "phpdocumentor/phpdocumentor": "^2.8",
+        "mikey179/vfsstream": "^1.6",
+        "phpunit/phpunit": "^9",
+        "phpdocumentor/phpdocumentor": "^3.1.0",
         "sebastian/phpcpd": "^2.0",
-        "phploc/phploc": "^2.1",
+        "phploc/phploc": "^7",
         "pdepend/pdepend": "^2.2",
         "phpmd/phpmd": "^2.4",
         "squizlabs/php_codesniffer": "^2.6",
-        "mayflower/php-codebrowser": "^1.1",
-        "friendsofphp/php-cs-fixer": "^1.12.2"
+        "friendsofphp/php-cs-fixer": "^3.0.2"
     },
     "autoload": {
         "psr-4": { "WindowsAzure\\": "src/" }
